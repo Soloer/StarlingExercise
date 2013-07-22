@@ -34,6 +34,7 @@ package
 			
 			_starling = new Starling( clazz, stage );
 			_starling.start();
+			
 		}
 	}
 }
