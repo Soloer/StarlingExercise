@@ -34,6 +34,7 @@ package
 //			clazz = StarGame;
 			clazz = FlatGame;
 			
+			
 			_starling = new Starling( clazz, stage );
 			_starling.start();
 		}
