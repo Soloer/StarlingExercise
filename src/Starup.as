@@ -1,5 +1,6 @@
 package
 {
+	import flatsprite.FlatGame;
 	import star.StarGame;
 	import img.MyImgTestGame;
 
@@ -29,8 +30,9 @@ package
 //			clazz = GameFrameColor;
 //			clazz = GameRotationColor;
 //			clazz = CustomGame;
-			clazz = MyImgTestGame;
+//			clazz = MyImgTestGame;
 //			clazz = StarGame;
+			clazz = FlatGame;
 			
 			_starling = new Starling( clazz, stage );
 			_starling.start();
