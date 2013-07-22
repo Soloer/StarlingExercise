@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--此配置表设置了全部的防御塔信息-->
+<npcInfo>
+<!--
+	texture:素材。下划线分隔了怪物下、左、右、上方向所使用的素材的组序号
+	id:NPC外观ID
+-->
+	<npc texture="0_4_8_12" id="0"/>
+	<npc texture="1_5_9_13" id="1"/>
+	<npc texture="2_6_10_14" id="2"/>
+	<npc texture="3_7_11_15" id="3"/>
+	<npc texture="16_20_24_28" id="4"/>
+	<npc texture="17_21_25_29" id="5"/>
+	<npc texture="18_22_26_30" id="6"/>
+	<npc texture="19_23_27_31" id="7"/>
+</npcInfo>

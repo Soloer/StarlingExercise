@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+	<!-- 场景名称 -->
+	<sceneName>Scene</sceneName>
+	
+	<!-- 场景宽度 -->
+	<sceneWidth>2100</sceneWidth>
+	
+	<!-- 场景高度 -->
+	<sceneHeight>600</sceneHeight>
+	
+	<!-- 场景中地表背景所用素材的位置。格式为：列_行。这个位置是相对于Tile.png图片中的某一小块素材位置 -->
+	<groundImage>5_2</groundImage>
+	
+</scene>
