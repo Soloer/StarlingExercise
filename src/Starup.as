@@ -36,11 +36,11 @@ package
 //			clazz = MyImgTestGame;
 //			clazz = StarGame;
 //			clazz = FlatGame;
-//			clazz = MovieclipGame;
+			clazz = MovieclipGame;
 //			clazz = RenderTexturGame;
-			clazz = TweenGame;
+//			clazz = TweenGame;
 
-			_starling = new Starling( clazz, stage );
+			_starling = new Starling( clazz, stage, null, null, "auto", "baseline" );
 			_starling.start();
 		}
 	}
