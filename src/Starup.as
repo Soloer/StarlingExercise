@@ -1,5 +1,7 @@
 package
 {
+	import tween.TweenGame;
+	import render.RenderTexturGame;
 	import moiveclip.MovieclipGame;
 	import flatsprite.FlatGame;
 	import star.StarGame;
@@ -34,7 +36,9 @@ package
 //			clazz = MyImgTestGame;
 //			clazz = StarGame;
 //			clazz = FlatGame;
-			clazz = MovieclipGame;
+//			clazz = MovieclipGame;
+//			clazz = RenderTexturGame;
+			clazz = TweenGame;
 
 			_starling = new Starling( clazz, stage );
 			_starling.start();
