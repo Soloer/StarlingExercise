@@ -1,5 +1,6 @@
 package
 {
+	import moiveclip.MovieclipGame;
 	import flatsprite.FlatGame;
 	import star.StarGame;
 	import img.MyImgTestGame;
@@ -32,7 +33,8 @@ package
 //			clazz = CustomGame;
 //			clazz = MyImgTestGame;
 //			clazz = StarGame;
-			clazz = FlatGame;
+//			clazz = FlatGame;
+			clazz = MovieclipGame;
 
 			_starling = new Starling( clazz, stage );
 			_starling.start();
